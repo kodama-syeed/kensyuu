@@ -1,7 +1,7 @@
 package ch4;
 
 public class Main4_9 {
-	public static void main(String[] arges) {
+	public static void main(String[] args) {
 		int[] points = new int[4];
 		double[] weights = new double[5];
 		boolean[] answers = new boolean[3];
