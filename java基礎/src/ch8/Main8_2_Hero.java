@@ -1,7 +1,7 @@
 package ch8;
 
 public class Main8_2_Hero {
-	String name;
+	public String name ="ミナト";
 	int hp;
 
 	public void attack() {
