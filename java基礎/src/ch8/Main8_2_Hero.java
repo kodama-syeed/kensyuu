@@ -1,7 +1,7 @@
 package ch8;
 
 public class Main8_2_Hero {
-	public String name ="ミナト";
+	public String name = "ミナト";
 	public int hp;
 
 	public void attack() {
@@ -29,5 +29,17 @@ public class Main8_2_Hero {
 		System.out.println(this.name + "は、逃げ出した！");
 		System.out.println("GAMEOVER");
 		System.out.println("最終HPは" + this.hp + "でした");
+	}
+
+	public String GetName() {
+		return this.name;
+	}
+
+	public int GetHp() {
+		return this.hp;
+	}
+	
+	public void setHp(int hp) {
+		this.hp=hp;
 	}
 }
