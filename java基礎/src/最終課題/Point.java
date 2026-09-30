@@ -1,5 +1,6 @@
 package 最終課題;
 
+
 public class Point {
 	private int x;
 	private int y;
