@@ -30,6 +30,6 @@ public class Square extends Rectangle {
 	 * 修飾子:public<br>
 	 */
 	public void draw() {
-		System.out.println("[正方形を描画] 点" + p + "を基準として幅・高さ" + width + "の正方形");
+		System.out.println("[正方形を描画] 点" + this.p + "を基準として幅・高さ" + this.width + "の正方形");
 	}
 }
